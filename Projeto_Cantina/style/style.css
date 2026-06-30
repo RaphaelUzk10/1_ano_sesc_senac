@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    color: #c8a103;
+    background-color: #0b588f;
+    text-align: center;
+}
+
+.image_cabecalho {
+    width: 100px;
+    border: 25px;
+}
+
+.pesquisa {
+    background-color: #0b588f;
+    border: 25px;
+    border-radius: 25px;
+    height: 40px;
+    margin: 1rem 0;
+}
+
+.container {
+    width: calc(100% - 2rem);
+    display: flex;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.menu-esquerda {
+    background-color: #0b588f;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 15%;
+    height: auto;
+}
+
+.text-esquerda {
+    color: white;
+}
+
+.text-esquerda mark {
+    color: aliceblue;
+    text-align: center;
+}
+
+.avaliacoes {
+    background-color: #0b588f;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 15%;
+    height: auto;
+}
+
+.horario {
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+}
+
+.horario mark {
+    text-align: left;
+    background-color: #c8a103;
+    margin: auto;
+}
+
+.promocoes {
+    border: 5px;
+    padding: 1rem;
+    width: 70%;
+    text-align: center;
+    background-color: #0b588f;
+    display: flex;
+}
+
+.promocoes figure {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.itens {
+    width: 250px;
+    text-align: center;
+    height: 200px;
+    gap: 1rem;
+}
+
+.precos {
+    color: aliceblue;
+}
+
+.card-promocoes {
+    margin: 0 auto;
+}
+
+.contatos {
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.historia {
+    background-color: #0b588f;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.formulario {
+    background-color: #c8a103;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    color: white;
+    background-color: #0b588f;
+    text-align: center;
+    
+}
